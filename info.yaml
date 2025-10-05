@@ -1,11 +1,11 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "8 bit counter"      # Project title
+  author:       "me"      # Your name
+  discord:      "mine"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "counts 8 bits and resets"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     100000000      # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -33,14 +33,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "a"
+  uo[1]: "s"
+  uo[2]: "d"
+  uo[3]: "f"
+  uo[4]: "g"
+  uo[5]: "h"
+  uo[6]: "j"
+  uo[7]: "k"
 
   # Bidirectional pins
   uio[0]: ""
